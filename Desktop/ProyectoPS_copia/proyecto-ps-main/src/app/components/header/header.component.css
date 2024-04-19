@@ -1,0 +1,46 @@
+button {
+	padding: 0.2em 1em; /* Establece la altura del botón */
+	border: 1px solid #000000; /* Establece un borde sólido de 2px de ancho */
+	border-radius: 0.2em; /* Agrega esquinas redondeadas al botón */
+	background-color: #000000; /* Establece el color de fondo del botón */
+	color: white; /* Establece el color del texto del botón */
+	font-size: 1em; /* Establece el tamaño de la fuente del texto del botón */
+	cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+	font-family: "Oswald", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+	display: flex; /* Centra verticalmente los elementos */
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.users-buttons {
+	display: flex;
+	flex-direction: row;
+	column-gap: 1em;
+	margin: 0 1em;
+}
+
+a {
+	display: inline-block;
+	padding: 8px 16px; /* Ajusta el padding según sea necesario */
+	border: 1px solid #ccc; /* Borde del enlace */
+	border-radius: 0.3em; /* Bordes redondeados */
+	text-decoration: none; /* Eliminar subrayado */
+	color: white; /* Color del texto */
+	background-color: black; /* Color de fondo */
+	cursor: pointer; /* Cursor al pasar por encima */
+	transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar colores */
+}
+
+/* Estilos al pasar el ratón por encima */
+a:hover {
+	background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
+	color: #000; /* Color del texto al pasar el ratón */
+}
+
+.hola{
+  font-family: Oswald;
+  font-weight: bold;
+}

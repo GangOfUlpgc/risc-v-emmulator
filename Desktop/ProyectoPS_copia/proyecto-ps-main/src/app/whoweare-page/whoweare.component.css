@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+a {
+	display: inline-block;
+	padding: 8px 16px; /* Ajusta el padding según sea necesario */
+	border: 1px solid #ccc; /* Borde del enlace */
+	border-radius: 0.3em; /* Bordes redondeados */
+	text-decoration: none; /* Eliminar subrayado */
+	color: white; /* Color del texto */
+	background-color: black; /* Color de fondo */
+	cursor: pointer; /* Cursor al pasar por encima */
+	transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar colores */
+}
+a:hover {
+	background-color: #e0e0e0;
+	color: #000;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	width: 10.1em;
+	padding: 1.5em 0.5em;
+	margin: 2em 0;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	font-size: 1.8em;
+	color: white;
+	text-align: center;
+  font-family: Oswald;
+}
+
+p {
+	background-color: rgba(161, 161, 161, 1);
+  color: #fff;
+	margin: 1em 5%;
+	border-radius: 0.4em;
+	padding: 1.8em;
+	font-family: Oswald;
+	text-wrap: wrap;
+	font-size: 1.6em;
+}

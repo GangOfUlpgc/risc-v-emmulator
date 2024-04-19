@@ -1,0 +1,11 @@
+<section class="record-container">
+	<h2 class="info-feature" #record_info>{{state}}</h2>
+	<div class="control-buttons">
+		<button
+			#record_button
+			(click)="toggleRecording()"
+			class="recordButton"
+		></button>
+		<button #micro_button (click)="toggleMicrophone()" class="microButton"></button>
+	</div>
+</section>

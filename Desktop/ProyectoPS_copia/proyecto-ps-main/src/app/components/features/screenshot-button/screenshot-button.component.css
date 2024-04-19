@@ -1,0 +1,25 @@
+button {
+	margin-top: 1em;
+	background-image: url("/assets/camera.png");
+	background-color: rgb(0, 0, 0, 0%);
+	border: none;
+	background-size: cover;
+	width: 4em;
+	height: 4em;
+	cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+	transition: 1s transform;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+em {
+	font-size: 1em;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 0.45em;
+	display: flex;
+	font-style: normal;
+	font-size: 2em;
+}

@@ -1,0 +1,311 @@
+.login-container {
+  font-family: Oswald;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(161, 161, 161, 0.75);
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  border: 2px solid transparent;
+  transition: border 2s;
+}
+
+.login-container:hover{
+  border: 2px solid black;
+}
+
+.h2box{
+  font-family: Oswald;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  height: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+h2 {
+  font-family: Oswald;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 25px;
+
+}
+
+.login-form form {
+  font-family: Oswald;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-group {
+  font-family: Oswald;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-family: Oswald;
+  margin-bottom: 0.5em;
+  color: #666666;
+  font-weight: bolder;
+}
+
+.input-group input {
+  font-family: Oswald;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.exit{
+  font-family: Oswald;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0.6em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login {
+  font-family: Oswald;
+  background: black;
+  color: white;
+  padding: 0.5em;
+  border: solid transparent;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: transparent;
+  transition: background 0.5s ease, border 0.5s, text-shadow 0,5s;
+}
+
+button{
+  width: 200px;
+  border-radius: 15px;
+}
+
+
+button:hover {
+  background: #a1a1a1;
+  border: 2px solid black;
+  text-shadow: 1px 1px 2px black;
+}
+
+.sign-up-text {
+  font-family: Oswald;
+  text-align: center;
+  margin-top: 3em;
+  color: #333333;
+
+}
+
+.sign-up-text a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up-text a:hover {
+  text-decoration: underline;
+}
+
+
+.botones{
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.email{
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.email:hover{
+  border: 2px solid black;
+}
+
+.password{
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.password:hover{
+  border: 2px solid black;
+}
+
+
+
+
+
+
+.login-container {
+  font-family: Oswald;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(161, 161, 161, 0.75);
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  border: 2px solid transparent;
+  transition: border 2s;
+}
+
+.login-container:hover{
+  border: 2px solid black;
+}
+
+.h2box{
+  font-family: Oswald;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+h2 {
+  font-family: Oswald;
+  color: white;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.login-form form {
+  font-family: Oswald;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-group {
+  font-family: Oswald;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-family: Oswald;
+  margin-bottom: 0.5em;
+  color: #666666;
+  font-weight: bolder;
+}
+
+.input-group input {
+  font-family: Oswald;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.exit{
+  font-family: Oswald;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0.6em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login {
+  font-family: Oswald;
+  background: black;
+  color: white;
+  padding: 0.5em;
+  border: solid transparent;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: transparent;
+  transition: background 0.5s ease, border 0.5s, text-shadow 0,5s;
+}
+
+button{
+  width: 200px;
+  border-radius: 15px;
+}
+
+
+button:hover {
+  background: #a1a1a1;
+  border: 2px solid black;
+  text-shadow: 1px 1px 2px black;
+}
+
+.sign-up-text {
+  font-family: Oswald;
+  text-align: center;
+  margin-top: 3em;
+  color: #333333;
+
+}
+
+.sign-up-text a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up-text a:hover {
+  text-decoration: underline;
+}
+
+
+.botones{
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.email{
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.email:hover{
+  border: 2px solid black;
+}
+
+.password{
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+.password:hover{
+  border: 2px solid black;
+}

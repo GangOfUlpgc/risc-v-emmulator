@@ -1,0 +1,35 @@
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin: 10% 10%;
+}
+
+.configure-selector {
+	border: 1em solid #000000; /* Establece un borde sólido de 2px de ancho */
+	border-radius: 10px; /* Agrega esquinas redondeadas al botón */
+	background-color: #000000; /* Establece el color de fondo del botón */
+	color: white; /* Establece el color del texto del botón */
+	cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+	width: 6em;
+
+	p {
+		font-family: Oswald;
+		text-align: center; /* Alinea el texto al centro */
+		font-size: 1.2em; /* Establece el tamaño de la fuente del texto del botón */
+    font-weight: bold;
+	}
+
+	select {
+		padding-left: 1em;
+		width: 100%;
+		text-align: center;
+	}
+
+	input {
+		padding-left: 1em;
+		width: 80%;
+		text-align: center;
+	}
+}

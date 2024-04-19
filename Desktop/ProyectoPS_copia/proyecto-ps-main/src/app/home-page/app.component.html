@@ -1,0 +1,11 @@
+@if (!showLandingPage) {
+  <body>
+    <header></header>
+    <main>
+      <app-record-button [_framerate]="options.framerate" [_resolution]="options.resolution" [_delay]="options.delay*1000" />
+      <app-screenshot-button [delay]="options.delay*1000" />
+      <app-options #options/>
+    </main>
+  </body>
+}
+<router-outlet></router-outlet>

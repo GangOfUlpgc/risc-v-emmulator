@@ -1,0 +1,39 @@
+
+<body>
+<a class="exit" routerLink="">Go Back</a>
+<div class="login-container">
+  <div class="login-form">
+    <div class="h2box">
+      <h2>SIGN UP</h2>
+    </div>
+    <form [formGroup]="form" class="forma" action="#" method="POST" (ngSubmit)="submit()"  >
+      <div class="input-group">
+        <label for="email">EMAIL</label>
+        <input formControlName="email" type="email" id="email" name="email" class="email">
+        <div id="email-error" style="display: none; color: red; margin-top: 1%;"></div>
+      </div>
+      <div class="input-group">
+        <label for="password">PASSWORD</label>
+        <input formControlName="password" type="password" id="password" name="password" class="password" required>
+        <div id="passwordreg-error" style="display: none; color: red; margin-top: 1%;"></div>
+      </div>
+      <div class="input-group">
+        <label for="password">CONFIRM PASSWORD</label>
+        <input formControlName="password1" type="password" id="passwordd" name="password" class="password" required>
+      </div>
+
+      <div class="botones">
+        <button id="login" class="login" type="submit">SIGN UP</button>
+
+        <button (click)="googlesignin()" type="button" class="login-with-google-btn" style="margin-right: 80px;">
+            Sign in with Google
+        </button>
+
+        <button routerLink="/"  id="login1" class="login" type="">CANCEL</button>
+
+      </div>
+    </form>
+    <p class="sign-up-text">Do you have already an account? <a routerLink="/login">Log in</a></p>
+  </div>
+</div>
+</body>

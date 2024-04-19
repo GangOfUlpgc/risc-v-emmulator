@@ -1,0 +1,17 @@
+<div class="hola">
+	<div class="header">
+		<a href="/whoweare">WHO WE ARE</a>
+		<div class="users-buttons">
+
+      @if(storage()){
+        <a (click)="getout()" routerLink="">LOG OUT</a>
+      } @else {
+        <a routerLink="/login">LOG IN</a>
+        <a routerLink="/signup">SIGN UP</a>
+
+      }
+
+			<button class="secundary" type="button">. . .</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+html {
+    background-image: url('/assets/background.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* La imagen se ajustará para cubrir todo el fondo */
+    background-position: center bottom; /* La imagen se centrará en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 100%;
+    width: 100%;
+}
+.body{
+  font-family: Oswald;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
